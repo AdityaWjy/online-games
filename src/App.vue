@@ -1,19 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <NavbarView />
+    <!-- Router view = Home view in Folder View -->
+
+    <router-view />
+    <FooterView />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
+import NavbarView from '@/components/NavbarView.vue'
+import FooterView from '@/components/FooterView.vue'
 export default {
-  name: "App",
   components: {
-    HelloWorld,
-  },
-};
+    NavbarView,
+    FooterView
+  }
+}
 </script>
 
 <style>
@@ -23,6 +26,18 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+::-webkit-input-placeholder {
+  font-style: italic;
+}
+:-moz-placeholder {
+  font-style: italic;
+}
+::-moz-placeholder {
+  font-style: italic;
+}
+:-ms-input-placeholder {
+  font-style: italic;
 }
 </style>

@@ -1,0 +1,129 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "nama": "Appocalypse",
+      "harga": 400000,
+      "stock": "Stock ready",
+      "diskon": "500.000",
+      "save": "20%",
+      "rating": "13K reviews",
+      "gambar": "1.jpg"
+    },
+    {
+      "id": 2,
+      "nama": "Warcraft",
+      "harga": 480000,
+      "stock": "Stock Limited",
+      "diskon": "800.000",
+      "save": "40%",
+      "rating": "4K reviews",
+      "gambar": "2.jpg"
+    },
+    {
+      "id": 3,
+      "nama": "Speed",
+      "harga": 255000,
+      "stock": "Stock Limited",
+      "diskon": "300.000",
+      "save": "15%",
+      "rating": "120K reviews",
+      "gambar": "3.jpg"
+    },
+    {
+      "id": 4,
+      "nama": "Candy Land",
+      "harga": 255000,
+      "stock": "Stock Limited",
+      "diskon": "300.000",
+      "save": "15%",
+      "rating": "120K reviews",
+      "gambar": "4.jpg"
+    },
+    {
+      "id": 5,
+      "nama": "World War 3",
+      "harga": 255000,
+      "stock": "Stock Limited",
+      "diskon": "300.000",
+      "save": "15%",
+      "rating": "120K reviews",
+      "gambar": "5.jpg"
+    },
+    {
+      "id": 6,
+      "nama": "The Yeti Adventures",
+      "harga": 255000,
+      "stock": "Stock ready",
+      "diskon": "300.000",
+      "save": "15%",
+      "rating": "120K reviews",
+      "gambar": "6.jpg"
+    }
+  ],
+  "comings": [
+    {
+      "id": 1,
+      "nama": "Ghost of Tsushima",
+      "deskripsi": "Forge a new path and wage an unconventional war for the freedom of Tsushima in this expanded version of the open-world action-adventure from Sucker Punch Productions.",
+      "gambar": "7-soon.webp"
+    },
+
+    {
+      "id": 2,
+      "nama": "Demon's Souls",
+      "deskripsi": "Entirely rebuilt from the ground up, experience the unsettling story and ruthless combat of Demon’s Souls.",
+      "gambar": "8-soon.webp"
+    },
+
+    {
+      "id": 3,
+      "nama": "Horizon Forbidden West",
+      "deskripsi": "Explore distant lands, fight bigger and more awe-inspiring machines, and encounter astonishing new tribes as you return to the far-future, post-apocalyptic world of Horizon. ",
+      "gambar": "9-soon.webp"
+    }
+  ],
+
+  "keranjangs": [],
+  "pesanans": [
+    {
+      "payment": "visa",
+      "nama": "Alexa",
+      "number": "0123",
+      "expirationMonth": "02",
+      "expirationYear": "2022",
+      "securityCode": "1234",
+      "keranjangs": [
+        {
+          "jumlah_order": "1",
+          "games": {
+            "id": 3,
+            "nama": "Speed",
+            "harga": 255000,
+            "stock": "Stock Limited",
+            "diskon": "300.000",
+            "save": "15%",
+            "rating": "120K reviews",
+            "gambar": "3.jpg"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_order": "1",
+          "games": {
+            "id": 2,
+            "nama": "Warcraft",
+            "harga": 480000,
+            "stock": "Stock Limited",
+            "diskon": "800.000",
+            "save": "40%",
+            "rating": "4K reviews",
+            "gambar": "2.jpg"
+          },
+          "id": 2
+        }
+      ],
+      "id": 1
+    }
+  ]
+}
